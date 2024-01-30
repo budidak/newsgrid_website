@@ -150,6 +150,10 @@ h6 {
   color: white;
 }
 
+.l-heading {
+  font-size: 5rem;
+}
+
 .py-1 {
   padding: 1rem 0;
 }
@@ -285,6 +289,19 @@ h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+/* Article */
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 0.8rem;
+}
+
+#article .meta .category {
+  margin-top: 0.64rem;
 }
 
 /* Footer */
