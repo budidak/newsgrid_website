@@ -324,3 +324,15 @@ h6 {
 #main-footer .footer-container input[type="submit"] {
   width: 90%;
 }
+
+/* About page container */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 2.5rem;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 3;
+}
