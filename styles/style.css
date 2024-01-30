@@ -39,6 +39,10 @@ img {
   width: 100%;
 }
 
+p {
+  margin: 0.8rem;
+}
+
 h1,
 h2,
 h3,
@@ -170,6 +174,16 @@ h6 {
   padding: 3rem;
 }
 
+.list li {
+  padding: 0.8rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+
+.list li a:hover {
+  color: var(--primary-color) !important;
+}
+
 /* Nav */
 #main-nav {
   background-color: #fff;
@@ -271,4 +285,42 @@ h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+/* Footer */
+#main-footer {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+#main-footer img {
+  width: 15rem;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2.4rem;
+}
+
+#main-footer .footer-container > *:last-child {
+  background-color: #444;
+  grid-column: 1 / span 4;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#main-footer .footer-container input[type="email"] {
+  width: 90%;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+#main-footer .footer-container input[type="submit"] {
+  width: 90%;
 }
